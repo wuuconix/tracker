@@ -1,0 +1,23 @@
+{
+  "name": "tracker2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuuconix/tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wuuconix/tracker/issues"
+  },
+  "homepage": "https://github.com/wuuconix/tracker#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.6"
+  }
+}
