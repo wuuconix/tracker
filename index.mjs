@@ -9,5 +9,10 @@ const p2 = fetch(url2).then(res => res.text())
 const p3 = fetch(url3).then(res => res.text())
 
 Promise.all([p1, p2, p3]).then(res => {
-    console.log(res)
+    const trackers = new Set()
+    for (let ts of res) {
+        ts.trim().split("\n\n").forEach(t => trackers.add(t))
+    }
+    console.log(trackers)
+    console.log(trackers.size)
 })
