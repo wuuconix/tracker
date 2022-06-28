@@ -13,3 +13,7 @@ sh tracker.sh | node index.js
 ```
 
 ![image](https://tva2.sinaimg.cn/large/007YVyKcly1h3ocnt642lj318n0evqv5.jpg)
+
+链接：https://url.wuuconix.link/tracker
+
+每天凌晨定时更新
