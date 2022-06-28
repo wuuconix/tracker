@@ -1,7 +1,7 @@
 import fetch from "node-fetch"
 
-const url1 = "https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all.txt"
-const url2 = "https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_ip.txt"
+const url1 = "https://raw.fastgit.org/ngosang/trackerslist/master/trackers_all.txt"
+const url2 = "https://raw.fastgit.org/ngosang/trackerslist/master/trackers_all_ip.txt"
 const url3 = "https://cdn.staticaly.com/gh/XIU2/TrackersListCollection/master/all.txt"
 
 const p1 = fetch(url1).then(res => res.text())
